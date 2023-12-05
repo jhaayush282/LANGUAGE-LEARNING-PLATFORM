@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>language learning platform -English Exercises</title>
+  <link rel="stylesheet" href="english.css">
+</head>
+<body>
+  <header>
+    <h1>Language Learning Platform</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="french.html">FRENCH</a></li>
+        <li><a href="spanish.html">SPANISH</a></li>
+        <li><a href="assess.html">ASSESSMENT</a></li>
+        <!-- Other navigation links -->
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="exercise-content">
+      <br>
+      <br>
+      <center><h2 style="background-color: brown;">English Exercises</h2></center>
+      <div class="exercise">
+        <h3>Exercise 1: Vocabulary Building</h3>
+        <p>Match the words with their meanings:</p>
+        <!-- Exercise content -->
+        <ul>
+          <li>VELOCITY: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="word1" name="word1"></li>
+          <br>
+          <li>BRILLIANT: &nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="word2" name="word2"></li>
+          <br>
+          <li>GENIUS:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="word3" name="word3"></li>
+          <br>
+          <li>CROWD: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="word4" name="word4"></li>
+          <br>
+          <li>COOL: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="word5" name="word5"></li>
+          <!-- Add more word-input pairs -->
+        </ul>
+        <button onclick="checkExercise1()">Submit</button>
+        <p id="exercise1-feedback"></p>
+      </div>
+
+      <div class="exercise">
+        <h3>Exercise 2: Grammar Practice</h3>
+        <p>Fill in the blanks with the correct verb form:</p>
+        <!-- Exercise content -->
+        <ul>
+          <li>The cat ______ (sleep) on the chair.</li>
+          <li>She ______ (go) to the market every day.</li>
+          <li>We've got a ______(big)car.</li>
+          <!-- Add more sentence blanks -->
+        </ul>
+        <button onclick="checkExercise2()">Submit</button>
+        <p id="exercise2-feedback"></p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div>
+
+      <!-- Add more exercises -->
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 English Online Tuition</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

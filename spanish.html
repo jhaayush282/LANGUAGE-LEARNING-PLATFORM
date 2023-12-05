@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spanish Exercise</title>
+  <link rel="stylesheet" href="spanish.css">
+</head>
+<body>
+  <header>
+    <h1>Language Learning Platform</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="english.html">ENGLISH</a></li>
+        <li><a href="french.html">FRENCH</a></li>
+        <li><a href="assess.html">ASSESSMENT</a></li>
+        <!-- Other navigation links -->
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="exercise">
+      <h2>Exercise 1: Vocabulary</h2>
+      <p>Match the Spanish words with their English translations:</p>
+      <form id="vocabularyExercise">
+        <!-- Add input fields and options for the exercise -->
+        <div class="question">
+          <label for="word1">Hola</label>
+          <input type="text" id="word1" name="word1" placeholder="Enter translation">
+        </div>
+        <div class="question">
+          <label for="word2">Perro</label>
+          <input type="text" id="word2" name="word2" placeholder="Enter translation">
+        </div>
+        <!-- Add more questions as needed -->
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    
+    <section class="exercise">
+      <h2>Exercise 2: Listening</h2>
+      <p>Listen to the audio and answer the questions:</p>
+      <audio controls>
+        <source src="audio/spanish-listening.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <form id="listeningExercise">
+        <!-- Add questions related to the audio -->
+        <div class="question">
+          <label for="answer1">What did the speaker say about...</label>
+          <input type="text" id="answer1" name="answer1" placeholder="Your answer">
+        </div>
+        <!-- Add more questions as needed -->
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+  <footer>
+    <p>&copy; 2023 Spanish Online Tuition</p>
+  </footer>
+</body>
+</html>
